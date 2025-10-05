@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: yellowgreen;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.display {
+  background: #66f7f7;
+  padding: 30px 80px;
+  font-size: 10rem;
+  border-radius: 60px;
+  border: 40px solid #222;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #66f7f7;
+  border: 10px solid #111;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 30%;
+}
+
+button:hover {
+  background-color: #00cccc;
+  color: yellowgreen;
+}
